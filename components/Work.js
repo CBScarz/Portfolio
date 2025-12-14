@@ -71,7 +71,7 @@ export default function Work() {
   const [sectionRef, isVisible] = useScrollAnimation(0.5)
   const [isTransitioning, setIsTransitioning] = useState(false)
   const [displayText, setDisplayText] = useState('')
-  const fullText = 'ls -la projects/'
+  const fullText = 'gh repo list'
 
   useEffect(() => {
     if (!isVisible) return

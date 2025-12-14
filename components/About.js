@@ -7,7 +7,7 @@ export default function About() {
   const [sectionRef, isVisible] = useScrollAnimation(0.2)
   const [displayText, setDisplayText] = useState('')
   const [displayOutput, setDisplayOutput] = useState('')
-  const fullText = 'whoami'
+  const fullText = 'gh api user'
   const outputText = 'Clyde - Aspiring Backend Developer'
 
   useEffect(() => {

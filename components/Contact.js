@@ -44,7 +44,7 @@ export default function Contact() {
         </div>
         {displayText === fullText && (
           <>
-            <h2 className="text-5xl font-bold mb-4 text-white animate-fade-in">Let's Build Something</h2>
+            <h2 className="text-5xl font-bold mb-4 text-white animate-fade-in">Let's Connect</h2>
             <p className="text-xl text-gray-400 animate-fade-in opacity-0" style={{ animationDelay: '0.2s' }}>Open to collaboration and new opportunities</p>
           </>
         )}
