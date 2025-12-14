@@ -73,7 +73,7 @@ export default function Skills() {
 
       {displayText === fullText && (
         <div className={`flex justify-center ${isVisible ? 'animate-fade-in' : 'opacity-0'}`} style={{ animationDelay: isVisible ? '0.2s' : '0s' }}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 max-w-7xl w-full">
           {skills.map((skill, idx) => {
             const animDelay = isVisible ? `${0.3 + idx * 0.15}s` : '0s'
             
