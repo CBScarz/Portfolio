@@ -2,7 +2,7 @@
 
 export default function Header() {
   return (
-    <header className="fixed top-0 w-full backdrop-blur-md bg-slate-950/80 border-b border-slate-800 z-1000 py-4">
+    <header className="fixed top-0 w-full bg-slate-950 border-b border-slate-800 z-50 py-4">
       <div className="max-w-5xl mx-auto px-8 flex justify-between items-center">
         <div className="text-xl font-bold tracking-tight">
           <span className="text-cyan-400">&lt;</span>

@@ -7,7 +7,7 @@ export default function Footer() {
         <span className="text-cyan-400">$</span>
         <span className="text-green-400"> exit 0</span>
         <span className="mx-3">•</span>
-        © 2025 Clyde. All rights reserved.
+        © 2025 CBScarz. All rights reserved.
       </p>
     </footer>
   )
